@@ -1,0 +1,84 @@
+if there are multuiple possible way to bring ans then try to reduce the multiple numbers into one or 2 variables eg(I hate 111)
+
+if there is a operation told try to bring a conclution from it that that actually is the opeartion doing 
+
+n/(lcm(a,b,c...) ===> number of terms that are divisible by a,b,c..... out of first n terms 
+
+even odd thought 
+
+XOR thought
+
+modulo thought 
+
+see the series 
+
+series that has sum of 2 numbers or fibo nacci series is like a series of 2 4 8 16 32 64 ....
+
+the product of any n consecutive number is always divisible by n! 
+
+precompute 2*10^5;
+
+
+binary search when cannot understand anything use it or when some thing like the max value needs to be calcuated
+
+
+use the const in the problem like the sum of array const , product of 2 elements const gcd cond lcm const.
+
+
+left iteration right iteration ...
+
+adjacent 2 odd numbers are coprime
+
+next_permutation ------- prev_permutation
+
+check % and / sign 
+
+minimize one term and check the next terms
+
+sort one array and take all possible sum of other arrays using the next permutation until n!
+
+base 9 representation of the digit for missing digits
+
+always try to check the sum of 2the broken parts by a formula example Split and ADD (cc)
+
+in reversing the question of the query check the final answer and also check if common parts can be removed by +1 -1 concept or binary search on bits 
+
+when the power questions are given try n=1 and n>=2 as in n=1 sometimes median gives the best possible ans and n>=2 average gives the best possible ans
+when 3 parameters are given think in terms of parameters eg project starting date ending date
+
+minimum maximum taking out trick in query question break the entire array in pawers of 2 then it will we easy to ans the question  
+
+when ever taking remainder if ithas some increment thing carefully (eg C. Jellyfish and Green Apple);
+
+deriving the final answer from the question (bit break individually independently ) 
+dp[x][y]=min(dp[x][k]+dp[k+1][y])+ar[x]*ar[k+1]*ar[y+1]; k for all x-->y+1
+
+inclusion exclusion principle
+
+if  i compute all multiples of a number it takes nlog(n) time 
+
+form aljebric equation in the then analyse the problem if bit doesnot work 
+
+(E. Data Structures) Fan nice concept to be known 
+
+use boundary condition like putting x =1 div 2  1st problem 
+in dp problem or ay other problem always see the boundary condtion can be positive as well as negative as assigned -1 initially 
+
+dp finaal state (helpfull for multi dimentional dp) , from middle (grid dp) ,from beginning (help full for array 2 d dp);
+use arrangement of l,R to solve number of waysto rech a partical position ;
+and if 1->k steps are possible then use bottom up dp(it iterative dp)
+break from a part and solve it independently then  combine them (f(i,j)=f(i,k)+f(k+1,j)+some combining term ) in dp
+
+ try brute force untill a certain point approach (see from where th etherms are repeating)
+
+when breaking a number in array  and adding it in 2 parts in the array check all the parts of the number (mistake in B. Milena and Admirer)
+
+range question always when inside a raneg it sgould be in the 2 parts (eg D. Jumping Through Segments)
+
+
+ sum of digits if same the  (range is btwn 0 9) so no carry possible 
+
+
+
+
+
